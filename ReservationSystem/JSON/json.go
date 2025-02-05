@@ -2,6 +2,8 @@ package json
 
 import (
 	"time"
+
+	"github.com/trevorgrabham/POS/reservationsystem"
 )
 
 type JSONReservations struct {
