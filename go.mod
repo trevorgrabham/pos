@@ -1,3 +1,3 @@
-module github.com/trevorgrabham/POS
+module github.com/trevorgrabham/pos
 
 go 1.22.3

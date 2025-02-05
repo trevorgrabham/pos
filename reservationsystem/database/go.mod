@@ -1,4 +1,4 @@
-module github.com/trevorgrabham/POS/ReservationSystem/database
+module github.com/trevorgrabham/pos/reservationsystem/database
 
 go 1.22.3
 
