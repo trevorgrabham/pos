@@ -3,7 +3,7 @@ package json
 import (
 	"time"
 
-	"github.com/trevorgrabham/POS/reservationsystem"
+	"github.com/trevorgrabham/pos/reservationsystem"
 )
 
 type JSONReservations struct {
