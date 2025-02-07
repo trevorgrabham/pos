@@ -2,7 +2,6 @@ package database
 
 import (
 	"database/sql"
-	"fmt"
 	"log"
 	"os"
 
@@ -22,7 +21,6 @@ func init() {
 		Addr:   os.Getenv("DBADDR"),
 		DBName: os.Getenv("DBNAME"),
 	}
-	fmt.Println(cfg)
 	db, err = sql.Open("mysql", cfg.FormatDSN())
 	if err != nil {
 		log.Fatalf("opening %s: %v", os.Getenv("DBNAME"), err)

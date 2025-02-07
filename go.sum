@@ -4,7 +4,3 @@ github.com/go-sql-driver/mysql v1.8.1 h1:LedoTUt/eveggdHS9qUFC1EFSa8bU2+1pZjSRpv
 github.com/go-sql-driver/mysql v1.8.1/go.mod h1:wEBSXgmK//2ZFJyE+qWnIsVGmvmEKlqwuVSjsCm7DZg=
 github.com/joho/godotenv v1.5.1 h1:7eLL/+HRGLY0ldzfGMeQkb7vMd0as4CfYvUVzLqw0N0=
 github.com/joho/godotenv v1.5.1/go.mod h1:f4LDr5Voq0i2e/R5DDNOoa2zzDfwtkZa6DnEwAbqwq4=
-github.com/trevorgrabham/pos/reservationsystem v0.0.0-20250205025603-a903ae94cda8 h1:Kv3GOYNY9b7He0yZpBs77iOixLbM/SvioqE3Fp/jLnY=
-github.com/trevorgrabham/pos/reservationsystem v0.0.0-20250205025603-a903ae94cda8/go.mod h1:pgkby9umOWzAUoVAynR+cFzRxATKSMXF2IKNSQSU9OY=
-github.com/trevorgrabham/pos/reservationsystem/database v0.0.0-20250205031138-88fd6858fede h1:xMpggTDM4BYe87F6Kj8mSBXZRLT7mZ7w196JLHuG5Y0=
-github.com/trevorgrabham/pos/reservationsystem/database v0.0.0-20250205031138-88fd6858fede/go.mod h1:jI6KwpyiDakjufZSB0zKhYKyfboDGC7zk0HHwVDly9E=
