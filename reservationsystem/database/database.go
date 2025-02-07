@@ -10,7 +10,7 @@ import (
 	"github.com/joho/godotenv"
 )
 
-var DB *sql.DB
+var db *sql.DB
 
 func init() {
 	err := godotenv.Load()
@@ -23,12 +23,14 @@ func init() {
 		DBName: os.Getenv("DBNAME"),
 	}
 	fmt.Println(cfg)
-	DB, err = sql.Open("mysql", cfg.FormatDSN())
+	db, err = sql.Open("mysql", cfg.FormatDSN())
 	if err != nil {
 		log.Fatalf("opening %s: %v", os.Getenv("DBNAME"), err)
 	}
-	err = DB.Ping()
+	err = db.Ping()
 	if err != nil {
 		log.Fatalf("pinging %s: %v", os.Getenv("DBNAME"), err)
 	}
 }
+
+func GetDB() *sql.DB { return db }
